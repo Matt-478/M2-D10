@@ -34,12 +34,19 @@ nav ul li a {
 
 
 
-.highlights-section img{
-  width: 16px;
-  height: 16px;
+/* HEADERS (all) */
+.header-section {
+  display: flex;
+  align-content: baseline;
 }
 
-.highlights-section h4{
+.header-section img{
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.header-section h4{
   font-size: 16px;
 }
 
@@ -107,4 +114,61 @@ nav ul li a {
 .GOG a p {
   color: #D522B9;
   text-decoration: none;
+}
+
+
+/* NOW ON SALE */
+/* nav */
+.sale-nav a{
+  color: lightgrey;
+}
+
+.sale-nav a:hover{
+  color: #D522B9;
+  border-bottom: 5px solid #D522B9;
+}
+
+#active {
+  color: #D522B9!important;
+}
+
+/* cards */
+.sale-img {
+  width: 256px;
+  height: 450px;
+  opacity: 0.8;
+}
+
+.orange-bg {
+  background-color: rgb(197, 138, 29);
+  position: relative;
+}
+
+.orange-bg h5 {
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  left: 20%;
+  top: 50px;
+  font-size: 25px;
+}
+
+.orange-bg p {
+  color:rgb(221, 193, 33);
+  font-weight: 700;
+  position: absolute;
+  left: 25px;
+  top: 250px;
+  font-size: 25px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.orange-bg p b{
+  color:rgb(221, 193, 33);
+  font-weight: 700;
+  font-size: 62px;
 }

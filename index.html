@@ -114,12 +114,12 @@
   <!-- HIGHLIGHTS -->
   <div class="container">
 
-    <div class="highlights-section mt-2">
+    <div class="header-section mt-4 mb-0">
       <img src="ICONS/marker.png"  class="d-inline">
       <h4  class="d-inline">Highlights</h4>
     </div>
 
-    <hr>
+    <hr class="mt-0">
 
       <!-- CAROUSEL -->
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
@@ -296,22 +296,59 @@
     </div>
   </div>
 
-  <hr>
-<!-- GOG -->
-  <div class="container">
-    <div class="d-flex justify-content-between GOG">
-      <p class="mb-0">We are GOG.COM, the DRM-free home for a curated selection of games. This place was made for gamers, so make yourself at <br> home.</p>
-      <div class="d-flex justify-content-between align-items-center">
-        <a href="#">
-          <img src="ICONS/circumference.png" class="d-inline">
-          <p class="d-inline" >The new GOG Galaxy 2.0</p>
-        </a>
+    <!-- GOG -->
+    <hr>
+    <div class="container">
+      <div class="d-flex justify-content-between GOG">
+        <p class="mb-0">We are GOG.COM, the DRM-free home for a curated selection of games. This place was made for gamers, so make yourself at <br> home.</p>
+        <div class="d-flex justify-content-between align-items-center">
+          <a href="#">
+            <img src="ICONS/circumference.png" class="d-inline">
+            <p class="d-inline" >The new GOG Galaxy 2.0</p>
+          </a>
+        </div>
+      </div>
+    </div>  
+    <hr>
+
+    <!-- NOW ON SALE -->
+    <div class="container">
+      <!-- sale nav -->
+      <nav class="nav mt-5 d-flex align-items-baseline sale-nav">
+        <a class="nav-link disabled" href="#">
+          <div class="header-section mb-0">
+          <img src="ICONS/sale.png" class="d-inline">
+          <h4  class="d-inline text-dark">Now on sale</h4>
+        </div>
+      </a>
+        <a class="nav-link active" id ="active" href="#">Feature deals</a>
+        <a class="nav-link" href="#">Weekly Sale</a>
+        <a class="nav-link" href="#">Timeless classics</a>
+      </nav>
+      <hr class="mt-0 ">
+
+      <!-- sale cards -->
+      <div class="row mb-5">
+
+        <div class="col-3">
+          <div class="orange-bg">
+            <img src="https://images.unsplash.com/photo-1606663889134-b1dedb5ed8b7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80" class="sale-img">
+            <h5>Weekly Sale</h5>
+            <p>Up to <br>
+            <b>- 90%</b></p>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="orange-bg">
+            <img src="https://images.unsplash.com/photo-1563901935883-cb61f5d49be4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=934&q=80" class="sale-img ">
+            <h5>Timeless Classics</h5>
+            <p>Up to <br>
+              <b>- 80%</b></p>
+          </div>
+        </div>
       </div>
     </div>
-  </div>  
-
-  <hr>
-
 
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
