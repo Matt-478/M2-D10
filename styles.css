@@ -85,3 +85,26 @@ nav ul li a {
 .tech-icon-combo {
   width: 55px;4
 }
+
+
+
+
+/* GOG */
+.GOG p{
+  font-size: 14px;
+  position: relative;
+}
+
+.GOG > p::after{
+  content: "";
+  border: 0.9px solid rgb(227, 227, 227);
+  position: absolute;
+  top: 5px;
+  right: -50px;
+  height: 35px;
+}
+
+.GOG a p {
+  color: #D522B9;
+  text-decoration: none;
+}
