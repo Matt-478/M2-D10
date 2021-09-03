@@ -1,0 +1,15 @@
+nav ul {
+  height: ;
+}
+
+nav ul li {
+  font-size: 14px;
+}
+
+nav ul li a {
+  padding: 2px;
+}
+
+.nav-logo img {
+  border-radius: 4px;
+}
