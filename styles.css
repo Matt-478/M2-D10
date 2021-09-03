@@ -1,5 +1,5 @@
 nav ul {
-  height: ;
+  height: 20px;
 }
 
 nav ul li {
@@ -12,4 +12,13 @@ nav ul li a {
 
 .nav-logo img {
   border-radius: 4px;
+}
+
+.icons img {
+  margin: 0 5px;
+}
+
+.icons span p {
+  color: white;
+  font-size: 10px;
 }
