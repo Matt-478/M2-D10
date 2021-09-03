@@ -53,19 +53,19 @@ nav ul li a {
 
 
 /* CAROUSEL */
-.carousel-inner p{
+.carousel-inner-header p{
   font-size: 28px;
 }
 
-.carousel-caption h5, .carousel-caption p {
+.carousel-caption-header h5, .carousel-caption-header p {
   font-size: 28px;
 }
 
-.carousel-caption .right-side button {
+.carousel-caption-header.right-side button {
   font-size: 16px;
 }
 
-.carousel-caption .right-side {
+.carousel-caption-header .right-side {
   align-items: center;
 }
 
@@ -80,7 +80,7 @@ nav ul li a {
   justify-content: space-between;
 }
 
-.card > img {
+.card-bunch-of-games > img {
   height: 133px;
 }
 
@@ -172,3 +172,7 @@ nav ul li a {
   font-weight: 700;
   font-size: 62px;
 }
+
+
+
+/* WHAT'S NEW? */
