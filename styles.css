@@ -72,3 +72,16 @@ nav ul li a {
   display: flex;
   justify-content: space-between;
 }
+
+.card > img {
+  height: 133px;
+}
+
+.tech-icon-resize {
+  height: 16px;
+  width: 16px;
+}
+
+.tech-icon-combo {
+  width: 55px;4
+}
